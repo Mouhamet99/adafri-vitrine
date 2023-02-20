@@ -26,7 +26,7 @@
         height: 200px;
         overflow: hidden;
         outline: 1px solid transparent;
-
+        border-radius: 10px;
     }
     .carrousel div:nth-child(1) {
         transform: rotateY(0) translateZ(350px);
