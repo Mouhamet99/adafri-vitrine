@@ -51,7 +51,7 @@
 <!-- presentation section  -->
 <section class="presentation-section" id="solutions">
     <div class="container">
-        <h2 class="mb-5">Plateforme publicitaire Omnicanal</h2>
+        <h2 class="mb-5">Plateforme publicitaire omnicanal</h2>
         <div class="container carousel-holder">
             <?php include('carousel.html.php')?>
         </div>
