@@ -1,0 +1,14 @@
+# Deny from all
+
+# Options -Indexes
+# RewriteEngine On
+
+# # Redirect all requests to the public_html directory
+# RewriteRule ^$ public_html/ [L]
+# RewriteRule (.*) public_html/$1 [L]
+# RewriteEngine On
+# RewriteCond %{REQUEST_URI}
+# RewriteRule ^(.*)$ public_html/index.php [L]
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !public_html/
+RewriteRule (.*) public_html/$1 [L]

@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/public_html/
+RewriteRule ^(.*)$ $1public_html [L]
+RewriteEngine On
+
+# Extract the subdirectory name from the REQUEST_URI variable
+RewriteCond %{REQUEST_URI} ^/([^/]+)/
+RewriteRule .* - [E=SUBDIR:%1]
+
+# Use the SUBDIR environment variable to set the RewriteBase dynamically
+RewriteBase /%{ENV:SUBDIR}/
+
+# Rewrite all requests to the public_html directory
+RewriteCond %{REQUEST_URI} !^/%{ENV:SUBDIR}/public_html/
+RewriteRule (.*) public_html/$1 [L]
