@@ -139,9 +139,8 @@
         <img src="<?php echo(WEB_ROOT.'assets/images/percent.png')?>" alt="percentage">
         <h2 class="mt-3">Une ligne de crédit minimale de $500.</h2>
         <p class="my-4">
-            Concevez, déployez , gérez et suivez à partir d'une<br>
-            plateforme intelligente, synchronisée à différents canaux.<br>
-            Devenez autonome dès aujourd’hui !
+           Accédez à un crédit publicitaire et evitez les tensions de trésorerie. <br>
+           Bénéficiez d'un credit, payé avant échéance et obtenez cashback
         </p>
         <div class="btn pt-3">
             <a href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="yellow-btn">Accéder au crédit publicitaire</a>
