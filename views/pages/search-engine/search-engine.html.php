@@ -6,6 +6,32 @@
 <?php
 include("search-engine.css.php");
 echo (START_TAGS);
+?>
+<!-- Google Tag Manager -->
+<script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K6PS79B');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6PS79B" height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<?php
 require_once(ROOT_VIEWS_INC . "menu.inc.php");
 ?>
 
@@ -25,8 +51,8 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
     <div class="container">
         <p class="text-center mb-5 pb-5">
             Google Ads atteint les internautes au moment où ils effectuent une recherche sur vos produits et services.<br>
-             Votre site Web enregistre donc des visites de clients plus qualifiés, <br>
-             et vous ne payez que lorsque les utilisateurs cliquent sur votre annonce.
+            Votre site Web enregistre donc des visites de clients plus qualifiés, <br>
+            et vous ne payez que lorsque les utilisateurs cliquent sur votre annonce.
         </p>
         <div class="row">
             <div class="col text-center">

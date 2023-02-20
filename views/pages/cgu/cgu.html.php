@@ -2,10 +2,36 @@
 <title>Adafri - Conditions générales d'utilisations </title>
 <meta name="description" content="Nous vous prions de lire les conditions générales avec une attention particulière car l’utilisation de adafri.com suppose leur acceptation entière et sans réserve. adafri.com est un contenu hébergé sur Internet et exploité par notre société, société à responsabilités limités de droit senegalais, immatriculée au registre de commerce de Dakar sous le numéro SN DKR 2019 B 18059 et dont le siège social est situé à Dakar. Les présentes conditions générales de vente des produits/services constituent des clauses contractuelles applicables à tout achat par tout utilisateur sur le site Web. Les termes «vous» et «utilisateur» désignent l'utilisateur final accédant au site Web. Les termes «fournisseurs de services » désignent les prestataires de services tiers. Les termes autour du pronom personnel «nous» désignent, ses franchiseurs, ses affiliés et ses partenaires. Le terme « site » désigne adafri.com">
 <meta name="keywords" content="Conditions générales d'utilisations">
-<?php 
-    include("cgu.css.php");
-    echo(START_TAGS);
-    require_once(ROOT_VIEWS_INC."menu.inc.php");
+<?php
+include("cgu.css.php");
+echo (START_TAGS);
+?>
+<!-- Google Tag Manager -->
+<script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K6PS79B');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6PS79B" height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<?php
+require_once(ROOT_VIEWS_INC . "menu.inc.php");
 ?>
 
 <!-- hero section  -->
@@ -44,24 +70,24 @@
             <p>
                 Lors de la procédure d'inscription au site Web. vous créez un mot de passe et un nom de compte à défaut d’une inscription directe par les réseaux sociaux. Vous êtes responsable du maintien de la confidentialité de votre compte, et êtes entièrement responsable de toutes les activités liées à votre compte.<br>
                 À cette fin, vous vous engagez à :
-                <ul>
-                    <li>aviser immédiatement adafri.com de toute utilisation frauduleuse de votre compte ou de toute autre violation de sécurité</li>
-                    <li>vous assurer que vous quittez votre compte à la fin de chaque session d’utilisation</li>
-                </ul>
-                Vous acceptez et vous engagez à utiliser le site Web uniquement pour afficher et remonter des données appropriées. A titre d'exemple, vous acceptez et vous vous engagez à ne pas:
-                <ul>
-                    <li>diffamer, abuser, harceler, traquer, menacer ou violer les droits individuels;</li>
-                    <li>publier, afficher, télécharger, distribuer ou disséminer tout sujet inapproprié, vulgaire, diffamatoire, obscène, indécent ou illégal, nom, élément ou information personnels;</li>
-                    <li>télécharger des fichiers qui contiennent des logiciels ou autres éléments protégés par les lois de propriété intellectuelle, sauf si vous possédez ou contrôlez les droits afférents ou ayez reçu tous les consentements nécessaires pour cela;</li>
-                    <li>télécharger ou distribuer des fichiers qui contiennent des virus, des fichiers corrompus ou tout autre logiciel ou programme similaire pouvant endommager le fonctionnement du site Web ou un ordinateur;</li>
-                    <li>mener des enquêtes ou à terme, des concours, des programmes effets « boule de neige»,</li>
-                    <li>télécharger un fichier publié par un autre utilisateur d'un service que vous savez, ou devriez raisonnablement savoir, ne peut pas être légalement distribué de cette manière;</li>
-                    <li>falsifier ou supprimer toute mention d'auteur, des avis juridiques ou autres appropriés ou des désignations ou étiquettes exclusives concernant l'origine ou la source d'un logiciel ou autre matériel contenu dans un fichier qui est téléchargé;</li>
-                    <li>violer tout code de conduite ou autres directives, qui peuvent être applicables pour ou à un service particulier;</li>
-                    <li>transgresser les lois ou règlements applicables pour le moment en vigueur dans ou en dehors de votre pays de navigation.</li>
-                    <li>Une atteinte à aucun des termes et conditions du présent Accord ou tous autres termes et conditions d'utilisation du site Web contient par ailleurs ici.</li>
-                </ul>
-                L'utilisateur accepte et s'engage à ne pas modifier, copier, distribuer, transmettre, afficher, exécuter, reproduire, publier, donner licence, créer des œuvres dérivées, transférer ou vendre toute information ou logiciel obtenu à partir du site Web. La reproduction illimitée ou massive, la copie du contenu à des fins commerciales ou non commerciales, ou la modification injustifiée de données et d'informations contenus sur le site Web n'est pas autorisée.
+            <ul>
+                <li>aviser immédiatement adafri.com de toute utilisation frauduleuse de votre compte ou de toute autre violation de sécurité</li>
+                <li>vous assurer que vous quittez votre compte à la fin de chaque session d’utilisation</li>
+            </ul>
+            Vous acceptez et vous engagez à utiliser le site Web uniquement pour afficher et remonter des données appropriées. A titre d'exemple, vous acceptez et vous vous engagez à ne pas:
+            <ul>
+                <li>diffamer, abuser, harceler, traquer, menacer ou violer les droits individuels;</li>
+                <li>publier, afficher, télécharger, distribuer ou disséminer tout sujet inapproprié, vulgaire, diffamatoire, obscène, indécent ou illégal, nom, élément ou information personnels;</li>
+                <li>télécharger des fichiers qui contiennent des logiciels ou autres éléments protégés par les lois de propriété intellectuelle, sauf si vous possédez ou contrôlez les droits afférents ou ayez reçu tous les consentements nécessaires pour cela;</li>
+                <li>télécharger ou distribuer des fichiers qui contiennent des virus, des fichiers corrompus ou tout autre logiciel ou programme similaire pouvant endommager le fonctionnement du site Web ou un ordinateur;</li>
+                <li>mener des enquêtes ou à terme, des concours, des programmes effets « boule de neige»,</li>
+                <li>télécharger un fichier publié par un autre utilisateur d'un service que vous savez, ou devriez raisonnablement savoir, ne peut pas être légalement distribué de cette manière;</li>
+                <li>falsifier ou supprimer toute mention d'auteur, des avis juridiques ou autres appropriés ou des désignations ou étiquettes exclusives concernant l'origine ou la source d'un logiciel ou autre matériel contenu dans un fichier qui est téléchargé;</li>
+                <li>violer tout code de conduite ou autres directives, qui peuvent être applicables pour ou à un service particulier;</li>
+                <li>transgresser les lois ou règlements applicables pour le moment en vigueur dans ou en dehors de votre pays de navigation.</li>
+                <li>Une atteinte à aucun des termes et conditions du présent Accord ou tous autres termes et conditions d'utilisation du site Web contient par ailleurs ici.</li>
+            </ul>
+            L'utilisateur accepte et s'engage à ne pas modifier, copier, distribuer, transmettre, afficher, exécuter, reproduire, publier, donner licence, créer des œuvres dérivées, transférer ou vendre toute information ou logiciel obtenu à partir du site Web. La reproduction illimitée ou massive, la copie du contenu à des fins commerciales ou non commerciales, ou la modification injustifiée de données et d'informations contenus sur le site Web n'est pas autorisée.
             </p>
         </article>
         <article>
@@ -79,10 +105,10 @@
         <article>
             <h3>Propriété intellectuelle</h3>
             <p>
-                <ul>
-                    <li>Sauf indication contraire, adafri.com possède, sans limite, tous les droits de propriété intellectuelle sur le contenu du site Web, tels que le code source, les bases de données, les textes, les images etc. Vous reconnaissez et acceptez que vous ne devez pas utiliser, de reproduire ou de distribuer tout contenu du Site Web appartenant à adafri.com sans notre autorisation.</li>
-                    <li>Vous êtes tenu seul responsable pour tout contenu que vous fournissez ou télécharger depuis le site Web.</li>
-                </ul>
+            <ul>
+                <li>Sauf indication contraire, adafri.com possède, sans limite, tous les droits de propriété intellectuelle sur le contenu du site Web, tels que le code source, les bases de données, les textes, les images etc. Vous reconnaissez et acceptez que vous ne devez pas utiliser, de reproduire ou de distribuer tout contenu du Site Web appartenant à adafri.com sans notre autorisation.</li>
+                <li>Vous êtes tenu seul responsable pour tout contenu que vous fournissez ou télécharger depuis le site Web.</li>
+            </ul>
             </p>
         </article>
         <article>
@@ -94,7 +120,7 @@
         <article>
             <h3>Droit applicable</h3>
             <p>
-            Ces conditions sont régies en conformité avec les lois du pays d’exploitation.
+                Ces conditions sont régies en conformité avec les lois du pays d’exploitation.
             </p>
         </article>
         <article>
@@ -120,7 +146,7 @@
             <p>
                 Vous pouvez accéder à vos principales données en vous connectant à votre compte sur le site Web
             </p>
-        </article> 
+        </article>
     </div>
 </section>
 
@@ -130,7 +156,7 @@
         <div class="row join-cards">
             <div class="col col-12 col-md-6">
                 <div class="card">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/A.svg')?>" alt="adafri">        
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/A.svg') ?>" alt="adafri">
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
@@ -140,13 +166,11 @@
             </div>
             <div class="col col-12 col-md-6 mt-5 mt-sm-0">
                 <div class="card card-right">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/white-headset.png')?>" alt="adafri">        
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/white-headset.png') ?>" alt="adafri">
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a target="_blank"
-                        href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093"
-                        class="green-btn">Prendre rendez-vous</a>
+                        <a target="_blank" href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
                     </div>
                 </div>
             </div>

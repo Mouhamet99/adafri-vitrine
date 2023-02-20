@@ -2,10 +2,36 @@
 <title>Adafri - Politiques de confidentialité</title>
 <meta name="description" content="Nous vous prions de lire nos politiques de confidentialité qui determinent l'ensemble des droits et obligations de nos utilisateurs.">
 <meta name="keywords" content="Politiques de confidentialité">
-<?php 
-    include("pc.css.php");
-    echo(START_TAGS);
-    require_once(ROOT_VIEWS_INC."menu.inc.php");
+<?php
+include("pc.css.php");
+echo (START_TAGS);
+?>
+<!-- Google Tag Manager -->
+<script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K6PS79B');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6PS79B" height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<?php
+require_once(ROOT_VIEWS_INC . "menu.inc.php");
 ?>
 
 
@@ -82,19 +108,19 @@
             <p>
                 <span class="fw-bold">Partage d’information et sauvegarde sur les sites de réseaux sociaux</span>: Si vous nous accordez l’accès à vos données personnelles stockées sur des sites tiers, l’étendue de cet accès peut varier selon les sites et sera à la fois déterminé par vos paramètres de navigation et votre accord. Si vous souhaitez intégrer un compte du service tiers à votre compte sur adafri.com et consentiez à ce que nous ayons accès aux données des comptes de ces services tiers, vous consentez également à ce que nous recueillions, utilisions et sauvegardions les données de ces sites tiers en accord avec la présente Politique de Confidentialité. Comme mentionné sous la Section 4, nous n’allons pas révéler vos données personnelles à des services tiers souhaitant les utiliser à des fins commerciales sans avoir préalablement reçu votre consentement.
                 Nous pouvons partager vos données personnelles avec :
-                <ul>
-                    <li>Des fournisseurs avec lesquels nous avons signé un contrat et avec lesquels nous travaillons pour améliorer nos Services sur le site, tels que des agences marketing et support technique. Dans tels cas, les données personnelles resteront sous le contrôle de adafri.com</li>
-                    <li>Certaines tierces parties (tels que les titulaires de droits de propriété intellectuelle, autorités de contrôle, autorités fiscales, investisseurs, polices et autres autorités publiques) si nous sommes contraints par la loi de le faire, ou en accord avec la présente Politique de Confidentialité. Nous pouvons être amenés à partager vos données personnelles :</li>
-                    <li>Si cela s’avère nécessaire au respect de notre politique ou pour la protection des droits et libertés individuelles ;</li>
-                    <li>Autres services tiers avec qui vous avez consenti de partager vos données personnelles via (même chose que ci-dessus s’applique), e. g. dans le cadre d’une collaboration.</li>
-                    <li>Entreprises avec lesquelles nous avons l’intention de fusionner dans un contexte de réorganisation ou qui a racheté notre compagnie.</li>
-                </ul>
+            <ul>
+                <li>Des fournisseurs avec lesquels nous avons signé un contrat et avec lesquels nous travaillons pour améliorer nos Services sur le site, tels que des agences marketing et support technique. Dans tels cas, les données personnelles resteront sous le contrôle de adafri.com</li>
+                <li>Certaines tierces parties (tels que les titulaires de droits de propriété intellectuelle, autorités de contrôle, autorités fiscales, investisseurs, polices et autres autorités publiques) si nous sommes contraints par la loi de le faire, ou en accord avec la présente Politique de Confidentialité. Nous pouvons être amenés à partager vos données personnelles :</li>
+                <li>Si cela s’avère nécessaire au respect de notre politique ou pour la protection des droits et libertés individuelles ;</li>
+                <li>Autres services tiers avec qui vous avez consenti de partager vos données personnelles via (même chose que ci-dessus s’applique), e. g. dans le cadre d’une collaboration.</li>
+                <li>Entreprises avec lesquelles nous avons l’intention de fusionner dans un contexte de réorganisation ou qui a racheté notre compagnie.</li>
+            </ul>
             </p>
             <p>
                 Sans nous restreindre à tout ce qui précède, nous devons également – dans un effort continuel : respecter votre vie privée et faire en sorte que le site soit exempt de personnes ou partis malveillants – éviter de dévoiler vos données personnelles à des tierces parties sans une ordonnance judicaire ou une demande formelle émanant du gouvernement et respectant la réglementation en vigueur, à moins de juger, en toute bonne foi, que cette divulgation est nécessaire (i) dans le but de, ou en connexion avec, toute procédure légale (y compris des procédures judiciaires prospectives), dans le but d’obtenir des conseils juridiques ou si nécessaire dans le but d’établir, exercer ou défendre des droits légaux, (ii) est nécessaire dans la prévention et enquête criminelle, l’arrestation ou la poursuite de délinquants, ou dans le contrôle ou le prélèvement d’impôts ou de taxes, (iii) est requise par des membres du corps judiciaire chargé de faire appliquer la réglementation.
             </p>
             <p>
-              <span class="fw-bold">Informations partagées sur adafri.com</span>: Notre Site Internet permet aux utilisateurs de partager des annonces et autres types d’informations avec d’autres utilisateurs, ainsi permettant à ces utilisateurs d’avoir accès aux informations partagées. Puisque notre Site vous permet également d’entrer en partie, directement en contact avec un acheteur ou un vendeur, nous vous conseillons de bien veiller à la façon dont vous partagez vos données personnelles avec les autres. Vous êtes le seul et unique responsable des données que vous partagez sur notre site et par conséquent nous ne pouvons garantir le caractère privé ou la sécurité des données que vous avez partagé avec d’autres utilisateurs.
+                <span class="fw-bold">Informations partagées sur adafri.com</span>: Notre Site Internet permet aux utilisateurs de partager des annonces et autres types d’informations avec d’autres utilisateurs, ainsi permettant à ces utilisateurs d’avoir accès aux informations partagées. Puisque notre Site vous permet également d’entrer en partie, directement en contact avec un acheteur ou un vendeur, nous vous conseillons de bien veiller à la façon dont vous partagez vos données personnelles avec les autres. Vous êtes le seul et unique responsable des données que vous partagez sur notre site et par conséquent nous ne pouvons garantir le caractère privé ou la sécurité des données que vous avez partagé avec d’autres utilisateurs.
             </p>
             <p>
                 Dans le cas où vous accédez à notre site à partir d’un ordinateur partagé ou d’un poste dans un cyber café, nous vous conseillons fortement de vous déconnecter après chaque session. Si vous ne souhaitez pas que l’ordinateur partagé enregistre dans son disque dur vos données et/ou identifiants, vous devez supprimer les cookies et/ou l’historique des sites visités
@@ -152,7 +178,7 @@
         <div class="row join-cards">
             <div class="col col-12 col-md-6">
                 <div class="card">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/A.svg')?>" alt="adafri">        
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/A.svg') ?>" alt="adafri">
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
@@ -162,12 +188,11 @@
             </div>
             <div class="col col-12 col-md-6 mt-5 mt-sm-0">
                 <div class="card card-right">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/white-headset.png')?>" alt="adafri">        
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/white-headset.png') ?>" alt="adafri">
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a target="_blank"
-                        href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
+                        <a target="_blank" href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
                     </div>
                 </div>
             </div>

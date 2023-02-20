@@ -15,5 +15,4 @@ define("ROOT_BG_LOGOS",ROOT.DIRECTORY_SEPARATOR."public_html".DIRECTORY_SEPARATO
 define("ROOT_ASSETS",ROOT.DIRECTORY_SEPARATOR."public_html".DIRECTORY_SEPARATOR."assets".DIRECTORY_SEPARATOR."images".DIRECTORY_SEPARATOR);
 define("START_TAGS", "</head><body>");
 define("WEB_ROOT", isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https". "://" . $_SERVER['HTTP_HOST'] . "/" : "http" . "://" . $_SERVER['HTTP_HOST'] . "/");
-// define("WEB_ROOT","https://www.adafri.com/");
 define("ROOT_CONTROLLERS",WEB_ROOT."controllers");
