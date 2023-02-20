@@ -83,12 +83,13 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
             le jargon technique des régies, et tout le monde se <br>
             retrouve facilement chez ADAFRI.
         </p>
+
         <div class="d-flex flex-column flex-sm-row justify-content-center">
             <div class="btn pt-3">
-                <a href="" class="green-btn">Télécharger le guide</a>
+                <a target="_blank" href="<?= WEB_ROOT ?>assets/documents/Guide-Campagne-publicitaire-Adafri.pdf" class="green-btn">Télécharger le guide</a>
             </div>
             <div class="btn pt-3 mt-3 mt-sm-0">
-                <a href="" class="yellow-btn">Télécharger la taille des annonces</a>
+                <a target="_blank" href="<?= WEB_ROOT ?>assets/documents/GuideTailleAnnonceSPublicitairesAdafri.pdf" class="yellow-btn">Télécharger la taille des annonces</a>
             </div>
         </div>
     </div>

@@ -87,7 +87,7 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
             régies, et tout le monde se retrouve facilement chez ADAFRI.
         </p>
         <div class="btn pt-3">
-            <a href="" class="green-btn">Télécharger le guide</a>
+            <a target="_blank" href="<?= WEB_ROOT ?>assets/documents/GuideCampagneSearchAdafri.pdf" class="green-btn">Télécharger le guide</a>
         </div>
     </div>
 </section>

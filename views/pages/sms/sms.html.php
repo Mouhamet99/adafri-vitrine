@@ -92,7 +92,7 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
             notre robot s’en occupe.
         </p>
         <div class="btn pt-3">
-            <a href="" class="yellow-btn">Télécharger le guide</a>
+            <a target="_blank" href="<?= WEB_ROOT ?>assets/documents/Guide-Campagne-SMS.pdf" class="yellow-btn">Télécharger le guide</a>
         </div>
     </div>
 </section>

@@ -50,7 +50,7 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
 <section class="second-section">
     <div class="container">
         <p class="text-center mb-5 pt-5">
-            Lorem ipsum <span>dolor sit amet</span>, consectetur adipiscing elit. <br> Morbi dui neque, consectetur ac malesuada et, <span>porttitor</span> ac dui.
+            Un assistantt virtuel avec des messages pré enregistrés pour engager et capturer des prospects vers un chemin prédéfini.
         </p>
         <div class="row">
             <div class="col col-md-7 col-12 text-center">
