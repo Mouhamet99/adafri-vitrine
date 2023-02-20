@@ -3,21 +3,18 @@
 <meta name="description" content="Annonce sur le moteur de recherche google sans Carte Bancaire. Adafri est automatisé aux inventaires Google ad.">
 <meta name="keywords" content="google ads en Afrique, search engine ads Africa, Google ads simplifié">
 
-<?php 
-    include("search-engine.css.php");
-    echo(START_TAGS);
-    require_once(ROOT_VIEWS_INC."menu.inc.php");
+<?php
+include("search-engine.css.php");
+echo (START_TAGS);
+require_once(ROOT_VIEWS_INC . "menu.inc.php");
 ?>
 
 <!-- hero section  -->
 <section class="hero-section hero-section-sm">
-    <div class="container">
+    <div class="container mt-4">
         <div class="text-center">
             <div class="col">
                 <h2>Publicites sur le moteur de recherche <span>Google</span></h2>
-                <p>
-                    Google Ads atteint les internautes au moment où ils effectuent une <span>recherche sur vos produits et services</span>. Votre site Web enregistre donc des visites de <span>clients plus qualifiés</span>, et vous ne payez que lorsque les utilisateurs cliquent sur votre annonce.
-                </p>
             </div>
         </div>
     </div>
@@ -26,12 +23,17 @@
 <!-- second section  -->
 <section class="second-section py-5">
     <div class="container">
+        <p class="text-center mb-5 pb-5">
+            Google Ads atteint les internautes au moment où ils effectuent une recherche sur vos produits et services.<br>
+             Votre site Web enregistre donc des visites de clients plus qualifiés, <br>
+             et vous ne payez que lorsque les utilisateurs cliquent sur votre annonce.
+        </p>
         <div class="row">
             <div class="col text-center">
                 <div class="d-flex flex-column justify-content-center h-100">
                     <h3>Qui cherche, trouve !</h3>
                     <p class="mt-2">
-                    Diffusez des annonces uniquement lorsque les utilisateurs recherchent votre produit ou service.
+                        Diffusez des annonces uniquement lorsque les utilisateurs recherchent votre produit ou service.
                     </p>
                     <div class="mt-2">
                         <a href="https://app.adafri.com/" target="_blank" class="yellow-btn">
@@ -42,7 +44,7 @@
             </div>
             <div class="col ">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/google-1.webp')?>" alt="adafri">
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/slider2.png') ?>" alt="adafri">
                 </div>
             </div>
         </div>
@@ -70,7 +72,7 @@
         <div class="row">
             <div class="col col-12 col-md-4">
                 <div class="d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/goal.webp')?>" alt="goal">
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/goal.webp') ?>" alt="goal">
                 </div>
             </div>
             <div class="col col-12 col-md-8 text-center">
@@ -86,13 +88,13 @@
     </div>
 </section>
 
-<!-- join section  --> 
+<!-- join section  -->
 <section class="join-section py-5">
     <div class="container">
         <div class="row join-cards">
             <div class="col col-12 col-md-6">
                 <div class="card">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/A.svg')?>" alt="logo adafri">        
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/A.svg') ?>" alt="logo adafri">
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
@@ -102,7 +104,7 @@
             </div>
             <div class="col col-12 col-md-6 mt-5 mt-sm-0">
                 <div class="card card-right">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/white-headset.png')?>" alt="adafri">        
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/white-headset.png') ?>" alt="adafri">
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">

@@ -28,7 +28,7 @@
         background-color: #F6F6F6;
     }
     .second-section .col img {
-        max-width: 450px;
+        max-width: 500px;
         -webkit-animation: image-move 2s ease-in-out infinite both;
         animation: image-move 2s ease-in-out infinite both;
     }
