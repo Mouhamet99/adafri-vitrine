@@ -15,11 +15,10 @@
         <div class="row flex-lg-nowrap row-reverse h-100">
             <div class="col col-12 col-lg-6 order-2 order-sm-1">
                 <div class="animate__animated animate__backInDown">
-                    <h1>Marketplace<br><span class="yellow">Publicitaire</span></h1><br>
+                    <h1>Prenez le controle<br><span class="yellow">de vos pubs</span></h1>
                     <p>
-                        <span class="yellow">Prenez le contrôle</span> d’une plateforme automatisée,<br>
-                        profitez de <span class="yellow">plusieurs canaux publicitaires sur toute <br>
-                        l’Afrique !</span>
+                       Notre  plateforme automatisée est connectée à  
+                         <span class="yellow"> plusieurs canaux publicitaires sur toute l'Afrique</span>
                     </p>
                     <div class="d-flex mt-5 flex-column flex-sm-row">
                         <div class="d-flex align-items-center">
@@ -51,7 +50,7 @@
 <!-- presentation section  -->
 <section class="presentation-section" id="solutions">
     <div class="container">
-        <h2 class="mb-5">Lancez et monitorez vos sites sur tous les canaux</h2>
+        <h2 class="mb-5">Lancez et monitorez vos pubs sur tous les canaux</h2>
         <div class="container carousel-holder">
             <?php include('carousel.html.php')?>
         </div>
