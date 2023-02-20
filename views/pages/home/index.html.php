@@ -1,32 +1,38 @@
 <!-- Meta Tags -->
-<title>Outil Marketing | Publicité  Afrique | Adafri</title>
+<title>Outil Marketing | Publicité Afrique | Adafri</title>
 <meta name="description" content="Publicité omnicanale sur toute l'Afrique.Prenez le contrôle de plusieurs régies publicitaires. Communiquez sur toute l'Afrique.">
 <meta name="keywords" content="Outil Marketing, Publicité  Afrique, Adafri, Google Ads en Afrique">
 
-<?php 
-    include("index.css.php");
-    echo(START_TAGS);
-    ?>
-     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-K6PS79B');
-    </script>
-    <!-- End Google Tag Manager -->
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6PS79B" height="0" width="0"
-            style="display:none;visibility:hidden">
-        </iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-<?php 
-require_once(ROOT_VIEWS_INC."menu.inc.php");
+<?php
+include("index.css.php");
+echo (START_TAGS);
+?>
+<!-- Google Tag Manager -->
+<script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K6PS79B');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6PS79B" height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<?php
+require_once(ROOT_VIEWS_INC . "menu.inc.php");
 ?>
 
 <!-- hero section -->
@@ -37,15 +43,15 @@ require_once(ROOT_VIEWS_INC."menu.inc.php");
                 <div class="animate__animated animate__backInDown">
                     <h1>Prenez le controle<br><span class="yellow">de vos pubs</span></h1>
                     <p>
-                       Notre  plateforme automatisée est connectée à  
-                         <span class="yellow"> plusieurs canaux publicitaires sur toute l'Afrique</span>
+                        Notre plateforme automatisée est connectée à
+                        <span class="yellow"> plusieurs canaux publicitaires sur toute l'Afrique</span>
                     </p>
                     <div class="d-flex mt-5 flex-column flex-sm-row">
                         <div class="d-flex align-items-center">
                             <a href="https://app.adafri.com" class="yellow-btn blue-border">Lancez vous</a>
                         </div>
                         <div class="demo d-flex justify-content-center align-items-center mt-3 mt-sm-0 mb-2 mb-sm-0">
-                            <img src="<?php echo(WEB_ROOT.'assets/images/headset.webp') ?>" alt="adafri" class="headset">
+                            <img src="<?php echo (WEB_ROOT . 'assets/images/headset.webp') ?>" alt="adafri" class="headset">
                             <a href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093">Demander une demo</a>
                         </div>
                     </div>
@@ -53,7 +59,7 @@ require_once(ROOT_VIEWS_INC."menu.inc.php");
             </div>
             <div class="col col-12 col-lg-6 order-1 order-sm-2">
                 <div class='hero-img d-flex align-items-center justify-content-center w-100'>
-                    <img src="<?php echo(WEB_ROOT. 'assets/images/img-header.png') ?>" alt="header">
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/img-header.png') ?>" alt="header">
                 </div>
             </div>
         </div>
@@ -72,7 +78,7 @@ require_once(ROOT_VIEWS_INC."menu.inc.php");
     <div class="container">
         <h2 class="mb-5">Lancez et monitorez vos pubs sur tous les canaux</h2>
         <div class="container carousel-holder">
-            <?php include('carousel.html.php')?>
+            <?php include('carousel.html.php') ?>
         </div>
         <div class="title text-center mt-5">
             <h4>Publicite sur les sites webs</h4>
@@ -97,14 +103,14 @@ require_once(ROOT_VIEWS_INC."menu.inc.php");
             </div>
             <div class="col col-12 col-lg-8">
                 <div class="advertisers-img">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/clients.webp')?>" alt="clients">
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/clients.webp') ?>" alt="clients">
                 </div>
             </div>
         </div>
         <div class="row communications">
             <div class="col col-12 col-lg-6 order-2 order-lg-1">
                 <div class="communication-img">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/dashboard.webp')?>" alt="communication">
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/dashboard.webp') ?>" alt="communication">
                 </div>
             </div>
             <div class="col col-12 col-lg-6 col-right order-1 order-lg-2">
@@ -118,7 +124,7 @@ require_once(ROOT_VIEWS_INC."menu.inc.php");
                         plateforme intelligente, synchronisée à différents canaux.<br>
                         Devenez autonome dès aujourd’hui !
                     </p>
-                    <a href="https://app.adafri.com" class="yellow-btn mt-3" >Commencer maintenant</a>
+                    <a href="https://app.adafri.com" class="yellow-btn mt-3">Commencer maintenant</a>
                 </div>
             </div>
         </div>
@@ -156,11 +162,11 @@ require_once(ROOT_VIEWS_INC."menu.inc.php");
 <!-- blue card section  -->
 <section class="blue-card-section">
     <div class="container text-center py-5">
-        <img src="<?php echo(WEB_ROOT.'assets/images/percent.png')?>" alt="percentage">
+        <img src="<?php echo (WEB_ROOT . 'assets/images/percent.png') ?>" alt="percentage">
         <h2 class="mt-3">Une ligne de crédit minimale de $500.</h2>
         <p class="my-4">
-           Accédez à un crédit publicitaire et evitez les tensions de trésorerie. <br>
-           Bénéficiez d'un credit, payé avant échéance et obtenez cashback
+            Accédez à un crédit publicitaire et evitez les tensions de trésorerie. <br>
+            Bénéficiez d'un credit, payé avant échéance et obtenez cashback
         </p>
         <div class="btn pt-3">
             <a href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="yellow-btn">Accéder au crédit publicitaire</a>
@@ -174,7 +180,7 @@ require_once(ROOT_VIEWS_INC."menu.inc.php");
         <div class="row join-cards">
             <div class="col col-12 col-md-6">
                 <div class="card">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/A.svg')?>" alt="logo adafri">        
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/A.svg') ?>" alt="logo adafri">
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
@@ -184,12 +190,11 @@ require_once(ROOT_VIEWS_INC."menu.inc.php");
             </div>
             <div class="col col-12 col-md-6 mt-5 mt-sm-0">
                 <div class="card card-right">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/white-headset.png')?>" alt="headset">        
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/white-headset.png') ?>" alt="headset">
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a target="_blank"
-                        href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
+                        <a target="_blank" href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
                     </div>
                 </div>
             </div>

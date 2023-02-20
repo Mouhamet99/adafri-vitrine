@@ -1,6 +1,6 @@
 <style>
     .hero-section {
-        background-image: url(<?php echo(WEB_ROOT.'assets/images/header-img.webp')?>);
+        background-image: url(<?php echo (WEB_ROOT . 'assets/images/header-img.webp') ?>);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -8,38 +8,47 @@
         padding-top: 100px;
         position: relative;
     }
+
     .hero-section .col h2 {
         color: #fff;
         font-weight: 600;
         font-size: 35px;
     }
-    .hero-section .col h2 span , .hero-section .col p span {
+
+    .hero-section .col h2 span,
+    .hero-section .col p span {
         color: #FFE000;
     }
+
     .hero-section .col p {
         color: #fff;
         font-weight: 400;
         margin-top: 20px;
         font-size: 20px;
     }
+
     .hero-section .col img {
         width: 750px;
         position: absolute;
         bottom: 0;
         right: 0;
     }
+
     .second-section {
         background-color: #F6F6F6;
     }
+
     .second-section .col img {
-        max-width: 350px;
+        max-width: 500px;
         -webkit-animation: image-move 2s ease-in-out infinite both;
         animation: image-move 2s ease-in-out infinite both;
     }
+
     .second-section .col h3 {
         color: #2344C3;
         font-weight: 600;
     }
+
     .second-section .col p {
         color: #505050;
         font-weight: 300;
@@ -53,18 +62,21 @@
         background-color: #F6F6F6;
         padding-bottom: 10px;
     }
+
     .blue-card-section .container {
         box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
         border: 20px solid #E8FAFF;
         border-radius: 40px;
-        background: rgb(7,113,225);
-        background: linear-gradient(45deg, rgba(7,113,225,1) 0%, rgba(3,38,134,1) 100%);
+        background: rgb(7, 113, 225);
+        background: linear-gradient(45deg, rgba(7, 113, 225, 1) 0%, rgba(3, 38, 134, 1) 100%);
         /* height: 480px; */
     }
+
     .blue-card-section .container h2 {
         font-size: 36px;
         font-weight: 600;
     }
+
     .blue-card-section .container p {
         font-weight: 400;
         font-size: 18px;
@@ -73,9 +85,10 @@
 
     /* third section */
     .third-section {
-        padding: 50px 0;  
+        padding: 50px 0;
         background-color: #F6F6F6;
     }
+
     .third-section .col img {
         width: 100%;
         max-height: 350px;
@@ -83,11 +96,13 @@
         -webkit-animation: image-move 2s ease-in-out infinite both;
         animation: image-move 2s ease-in-out infinite both;
     }
+
     .third-section .col h3 {
         font-size: 32px;
         font-weight: 600;
         color: #2344C3;
     }
+
     .third-section .col p {
         font-size: 20px;
         font-weight: 300;
@@ -99,6 +114,7 @@
         padding-bottom: 50px;
         background-color: #F6F6F6;
     }
+
     .join-section .card {
         position: relative;
         padding: 20px;
@@ -107,11 +123,13 @@
         border: 3px solid #CDE7FF;
         background-color: rgba(205, 231, 255, 0.25);
     }
+
     .join-section .card .text-start {
         position: absolute;
         bottom: 30px;
         left: 20px;
     }
+
     .join-section .card img {
         right: 30px;
         top: -25px;
@@ -122,15 +140,18 @@
         border-radius: 20px;
         border: 4px solid #CDE7FF;
     }
+
     .join-section .card-right {
         background-color: rgba(218, 255, 228, 0.25);
         border: 4px solid rgba(218, 255, 228, 1);
     }
+
     .join-section .card-right img {
         background-color: rgba(78, 203, 113, 1);
         border: 4px solid rgba(218, 255, 228, 1);
     }
-   .join-section .card p {
+
+    .join-section .card p {
         color: #505050;
-   } 
+    }
 </style>

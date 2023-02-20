@@ -37,36 +37,33 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
 
 <!-- hero section  -->
 <section class="hero-section hero-section-sm">
-    <div class="container">
-        <div class="row">
-            <div class="col col-12 col-md-8" style="z-index:2;">
-                <div>
-                    <h2>Vos Campagnes <span>SMS Marketing</span><br>En Afrique</h2>
-                    <p>
-                        Envoyez des <span>alertes</span>, des <span>rappels</span>, des <span>messages uniques</span><br>
-                        vers vos clients, mais aussi pour informer et communiquer. Dans 17 pays et au prix local.
-                    </p>
-                </div>
-            </div>
-            <div class="col col-sm-4 col-12">
-                <div>
-                    <img src="<?php echo (WEB_ROOT . 'assets/images/wew.png') ?>" alt="sms campaigns">
-                </div>
+    <div class="container  mt-4">
+        <div class="text-center">
+            <div class="col">
+                <h2>Vos Campagnes <span>SMS Marketing</span><br>En Afrique</h2>
             </div>
         </div>
     </div>
 </section>
-
 <!-- second section  -->
 <section class="second-section py-5">
     <div class="container">
+        <p class="text-center mb-5 pb-5">
+            Envoyez des <span>alertes</span>, des <span>rappels</span>, des <span>messages uniques</span>vers vos clients,
+            <br>
+            mais aussi pour informer et communiquer. Dans 17 pays et au prix local.
+        </p>
         <div class="row">
             <div class="col text-center">
                 <div class="d-flex flex-column justify-content-center h-100">
-                    <h3>Bulk SMS:</h3>
+                    <h3>Bulk SMS: Soyez +proche</h3>
                     <p class="mt-2">
-                        Notre solution peut également servir aux entreprises en interne, <br>
-                        pour les besoins de communications entre l'administration et ses employés.
+                        La solution peut servir également aux entreprises en
+                        interne, <br> pour les besoins de communication entre <br>
+                        l’administration et ses employés.
+                        Envoyez des alertes, des rappels, des messages uniques vers vos
+                        clients, mais aussi pour informer et communiquer.
+                        Dans 17 pays et au prix local
                     </p>
                     <div class="mt-2">
                         <a href="https://app.adafri.com/" target="_blank" class="yellow-btn">
@@ -77,7 +74,7 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
             </div>
             <div class="col ">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo (WEB_ROOT . 'assets/images/sms.webp') ?>" alt="adafri">
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/slider4.png') ?>" alt="adafri">
                 </div>
             </div>
         </div>
@@ -106,7 +103,7 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
         <div class="row">
             <div class="col col-12 col-md-6">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo (WEB_ROOT . 'assets/images/5fcfa.webp') ?>" alt="adafri">
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/sms.webp') ?>" alt="adafri">
                 </div>
             </div>
             <div class="col col-12 col-md-6">
