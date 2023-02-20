@@ -3,29 +3,29 @@
 <meta name="description" content="Sondage de masse par le canal USSD. l'USSD devient outil pour du sondage. Des résultats en temps réel pour les cabinets de sondage ou entreprises">
 <meta name="keywords" content="">
 
-<?php 
-    include("ussd.css.php");
-    echo(START_TAGS);
-    require_once(ROOT_VIEWS_INC."menu.inc.php");
+<?php
+include("ussd.css.php");
+echo (START_TAGS);
+require_once(ROOT_VIEWS_INC . "menu.inc.php");
 ?>
 
 <!-- hero section  -->
 <section class="hero-section hero-section-sm">
-    <div class="container">
+    <div class="container mt-4">
         <div class="text-center">
             <div class="col">
                 <h2>L’USSD pour des <span>sondages intelligents</span></h2>
-                <p>
-                    L'<span>USSD</span> est un protocole qui permet de déclencher un service par envoi d’un message. Mis en place il y a plus de 20 ans, c'était déjà grâce à lui que vous pouviez consulter votre solde en tapant le #123#.
-                </p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- second section  -->
-<section class="second-section py-2">
+<section class="second-section py-5">
     <div class="container">
+        <p class="text-center mb-5 pb-5">
+            L'<span>USSD</span> est un protocole qui permet de déclencher un service par envoi d’un message. Mis en place il y a plus de 20 ans, c'était déjà grâce à lui que vous pouviez consulter votre solde en tapant le #123#.
+        </p>
         <div class="row">
             <div class="col text-start order-2">
                 <div class="d-flex flex-column justify-content-center h-100">
@@ -42,7 +42,7 @@
             </div>
             <div class="col order-1 ">
                 <div class="h-100 d-flex align-items-center justify-content-center">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/ussd.webp')?>" alt="ussd survey">
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/slider8.png') ?>" alt="ussd survey">
                 </div>
             </div>
         </div>
@@ -58,9 +58,7 @@
             bonne nouvelle, c’est que vous pouvez y accéder.
         </p>
         <div class="btn pt-3">
-            <a 
-            target="_blank"
-            href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">
+            <a target="_blank" href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">
                 Prendre rendez-vous
             </a>
         </div>
@@ -73,7 +71,7 @@
         <div class="row join-cards">
             <div class="col col-12 col-md-6">
                 <div class="card">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/A.svg')?>" alt="logo adafri">        
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/A.svg') ?>" alt="logo adafri">
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
@@ -83,12 +81,11 @@
             </div>
             <div class="col col-12 col-md-6 mt-5 mt-sm-0">
                 <div class="card card-right">
-                    <img src="<?php echo(WEB_ROOT.'assets/images/white-headset.png')?>" alt="white headset">        
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/white-headset.png') ?>" alt="white headset">
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
-                        <a target="_blank"
-                        href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
+                        <a target="_blank" href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
                     </div>
                 </div>
             </div>

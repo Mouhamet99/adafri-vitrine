@@ -30,7 +30,7 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
                 <div class="d-flex flex-column justify-content-center h-100">
                     <h3>Gardez la main sur vos performances</h3>
                     <p class="mt-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui neque, consectetur ac malesuada et, porttitor ac dui.
+                        Monitorez vos annonces en temps réel sur vote tableau de bord. Gardez un oeil sur les impressions , les clics, votre budget ett réajustez votre campagne à tout moment
                     </p>
                     <div class="mt-2">
                         <a href="https://app.adafri.com/" target="_blank" class="yellow-btn">
