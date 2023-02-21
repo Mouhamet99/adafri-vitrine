@@ -108,8 +108,8 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
             <div class="col col-12 col-md-6 mt-5 mt-sm-0">
                 <div class="card card-right">
                     <img src="<?php echo (WEB_ROOT . 'assets/images/white-headset.png') ?>" alt="adafri">
-                    <h6>Commencez l'aventure ADAFRI</h6>
-                    <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
+                    <h6>Demandez une démo et un crédit !</h6>
+                    <p class="my-2">Echanger avec un conseiller et devenez autonome en 15mn pour lancer des campagnes intelligentes.</p>
                     <div class="text-start">
                         <a target="_blank" href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
                     </div>

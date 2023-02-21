@@ -99,7 +99,7 @@
         line-height: 45px;
     }
     .presentation-section .carousel-holder{
-        height: 400px;
+        min-height: 200px;
         overflow: hidden;
         max-width: 100vw;
     }

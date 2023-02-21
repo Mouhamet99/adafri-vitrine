@@ -80,6 +80,10 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
         <div class="container carousel-holder">
             <?php include('carousel.html.php') ?>
         </div>
+        <div class="row text-center">
+            <a href="https://app.adafri.com" class="yellow-btn w-auto mx-auto mt-3">Commencer maintenant</a>
+        </div>
+
     </div>
     <div class="container mt-5">
         <div class="row advertisers">
@@ -171,7 +175,7 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
         <div class="row join-cards">
             <div class="col col-12 col-md-6">
                 <div class="card">
-                    <img src="<?php echo (WEB_ROOT . 'assets/images/A.svg') ?>" alt="logo adafri">
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/A.svg') ?>" alt="adafri">
                     <h6>Commencez l'aventure ADAFRI</h6>
                     <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
                     <div class="text-start">
@@ -181,9 +185,9 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
             </div>
             <div class="col col-12 col-md-6 mt-5 mt-sm-0">
                 <div class="card card-right">
-                    <img src="<?php echo (WEB_ROOT . 'assets/images/white-headset.png') ?>" alt="headset">
-                    <h6>Commencez l'aventure ADAFRI</h6>
-                    <p class="my-2">Profitez des services de notre outil marketing et faites grandir<br> votre business.</p>
+                    <img src="<?php echo (WEB_ROOT . 'assets/images/white-headset.png') ?>" alt="adafri">
+                    <h6>Demandez une démo et un crédit !</h6>
+                    <p class="my-2">Echanger avec un conseiller et devenez autonome en 15mn pour lancer des campagnes intelligentes.</p>
                     <div class="text-start">
                         <a target="_blank" href="https://meetings-eu1.hubspot.com/dieuveille-goma/notre-1er-rendez-vous-?__hstc=97983424.89c537ad01fe42754e5b0e07974778c5.1669894721085.1675682490897.1675688328305.26&__hssc=97983424.1.1675688328305&__hsfp=3058040093" class="green-btn">Prendre rendez-vous</a>
                     </div>
