@@ -34,32 +34,33 @@
         }
 		spinner.setAttribute("style","transform:rotateY("+ angle +"deg);")
 	}
-    document.querySelector('#website').addEventListener('click', ()=>{
-        window.location.href = '<?php echo(WEB_ROOT)?>page/website-ads';
-    })
-    document.querySelector('#ussd').addEventListener('click', ()=>{
-        window.location.href = '<?php echo(WEB_ROOT)?>page/ussd';
-    })
-    document.querySelector('#search').addEventListener('click', ()=>{
-        window.location.href = '<?php echo(WEB_ROOT)?>page/search-engine-ads';
-    })
-    document.querySelector('#chatbot').addEventListener('click', ()=>{
-        window.location.href = '<?php echo(WEB_ROOT)?>page/chatbot';
-    })
-    document.querySelector('#sms').addEventListener('click', ()=>{
-        window.location.href = '<?php echo(WEB_ROOT)?>page/sms';
-    })
     
-    document.querySelector('#radio').addEventListener('click', ()=>{
-        window.location.href = '<?php echo(WEB_ROOT)?>page/radio';
-    })
-    document.querySelector('#leds').addEventListener('click', ()=>{
-        window.location.href = '<?php echo(WEB_ROOT)?>page/led-pannels-ads';
-    })
-    document.querySelector('#tv').addEventListener('click', ()=>{
-        window.location.href = '<?php echo(WEB_ROOT)?>page/tv';
-    })
-    document.querySelector('#push-vocal').addEventListener('click', ()=>{
-        window.location.href = '<?php echo(WEB_ROOT)?>page/push-vocal';
-    })
+    // document.querySelector('#website').addEventListener('click', ()=>{
+    //     window.location.href = '<?php echo(WEB_ROOT)?>page/website-ads';
+    // })
+    // document.querySelector('#ussd').addEventListener('click', ()=>{
+    //     window.location.href = '<?php echo(WEB_ROOT)?>page/ussd';
+    // })
+    // document.querySelector('#search').addEventListener('click', ()=>{
+    //     window.location.href = '<?php echo(WEB_ROOT)?>page/search-engine-ads';
+    // })
+    // document.querySelector('#chatbot').addEventListener('click', ()=>{
+    //     window.location.href = '<?php echo(WEB_ROOT)?>page/chatbot';
+    // })
+    // document.querySelector('#sms').addEventListener('click', ()=>{
+    //     window.location.href = '<?php echo(WEB_ROOT)?>page/sms';
+    // })
+    
+    // document.querySelector('#radio').addEventListener('click', ()=>{
+    //     window.location.href = '<?php echo(WEB_ROOT)?>page/radio';
+    // })
+    // document.querySelector('#leds').addEventListener('click', ()=>{
+    //     window.location.href = '<?php echo(WEB_ROOT)?>page/led-pannels-ads';
+    // })
+    // document.querySelector('#tv').addEventListener('click', ()=>{
+    //     window.location.href = '<?php echo(WEB_ROOT)?>page/tv';
+    // })
+    // document.querySelector('#push-vocal').addEventListener('click', ()=>{
+    //     window.location.href = '<?php echo(WEB_ROOT)?>page/push-vocal';
+    // })
 </script>
