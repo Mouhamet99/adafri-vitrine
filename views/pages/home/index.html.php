@@ -80,15 +80,6 @@ require_once(ROOT_VIEWS_INC . "menu.inc.php");
         <div class="container carousel-holder">
             <?php include('carousel.html.php') ?>
         </div>
-        <div class="title text-center mt-5">
-            <h4>Publicite sur les sites webs</h4>
-            <p>
-                Faites vous aisément remarquer sur <span>tout le Web</span>. Votre annonce se retrouve<br>
-                sur tous les sites et applications mobiles de votre choix. Prenez les<br>
-                commandes et découvrez notre outil automatisé à Google pour faire décoller<br>
-                votre Entreprise.
-            </p>
-        </div>
     </div>
     <div class="container mt-5">
         <div class="row advertisers">

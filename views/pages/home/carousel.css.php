@@ -9,15 +9,15 @@
         position: relative;
         perspective: 1500px;
     }
-    
-    .carrousel { 
+
+    .carrousel {
         height: 100%;
         width: 100%;
         position: absolute;
         transform-style: preserve-3d;
         transition: transform 1s;
     }
-    
+
     .carrousel div {
         cursor: pointer;
         backface-visibility: hidden;
@@ -28,65 +28,72 @@
         outline: 1px solid transparent;
         border-radius: 10px;
     }
+
     .carrousel div:nth-child(1) {
         transform: rotateY(0) translateZ(350px);
-        background:url(<?php echo(WEB_ROOT.'assets/images/slider1.png')?>) no-repeat center center/cover;;
+        background: url(<?php echo (WEB_ROOT . 'assets/images/slider1.png') ?>) no-repeat center center/cover;
+        ;
 
     }
-        
+
     .carrousel div:nth-child(2) {
         transform: rotateY(40deg) translateZ(350px);
-        background:url(<?php echo(WEB_ROOT.'assets/images/slider2.png')?>) no-repeat center center/cover;;
+        background: url(<?php echo (WEB_ROOT . 'assets/images/slider2.png') ?>) no-repeat center center/cover;
+        ;
 
     }
-        
+
     .carrousel div:nth-child(3) {
-        
-        transform: rotateY(80deg) translateZ(350px);;
 
-        background:url(<?php echo(WEB_ROOT.'assets/images/slider3.png')?>) no-repeat center center/cover;
+        transform: rotateY(80deg) translateZ(350px);
+        ;
+
+        background: url(<?php echo (WEB_ROOT . 'assets/images/slider3.png') ?>) no-repeat center center/cover;
     }
-        
+
     .carrousel div:nth-child(4) {
         transform: rotateY(120deg) translateZ(350px);
-        background:url(<?php echo(WEB_ROOT.'assets/images/slider4.png')?>) no-repeat center center/cover;;
+        background: url(<?php echo (WEB_ROOT . 'assets/images/slider4.png') ?>) no-repeat center center/cover;
+        ;
 
     }
-        
+
     .carrousel div:nth-child(5) {
         transform: rotateY(160deg) translateZ(350px);
-        background:url(<?php echo(WEB_ROOT.'assets/images/slider5.png')?>) no-repeat center center/cover;
-
-    } 
-        
-    .carrousel div:nth-child(6) {
-        transform: rotateY(200deg) translateZ(350px);
-        background:url(<?php echo(WEB_ROOT.'assets/images/slider6.png')?>) no-repeat center center/cover ;
+        background: url(<?php echo (WEB_ROOT . 'assets/images/slider5.png') ?>) no-repeat center center/cover;
 
     }
-    
+
+    .carrousel div:nth-child(6) {
+        transform: rotateY(200deg) translateZ(350px);
+        background: url(<?php echo (WEB_ROOT . 'assets/images/slider6.png') ?>) no-repeat center center/cover;
+
+    }
+
     .carrousel div:nth-child(7) {
         transform: rotateY(240deg) translateZ(350px);
-        background:url(<?php echo(WEB_ROOT.'assets/images/slider7.png')?>) no-repeat center center/cover      ;
+        background: url(<?php echo (WEB_ROOT . 'assets/images/slider7.png') ?>) no-repeat center center/cover;
 
     }
 
     .carrousel div:nth-child(8) {
         transform: rotateY(280deg) translateZ(350px);
-        background:url(<?php echo(WEB_ROOT.'assets/images/slider8.png')?>) no-repeat center center/cover      ;
+        background: url(<?php echo (WEB_ROOT . 'assets/images/slider8.png') ?>) no-repeat center center/cover;
 
     }
 
     .carrousel div:nth-child(9) {
         transform: rotateY(320deg) translateZ(350px);
-        background:url(<?php echo(WEB_ROOT.'assets/images/slider9.png')?>) no-repeat center center/cover      ;
+        background: url(<?php echo (WEB_ROOT . 'assets/images/slider9.png') ?>) no-repeat center center/cover;
 
     }
+
     .controls {
         width: 100%;
         position: absolute;
         bottom: -150px;
     }
+
     .controls button {
         width: 42px;
         height: 42px;
@@ -98,7 +105,63 @@
         align-items: center;
         justify-content: center;
     }
+
     .controls button span {
         font-size: 30px;
+    }
+
+
+
+
+
+    /*  */
+    .stretch-card>.card {
+        width: 100%;
+        min-width: 100%
+    }
+
+    body {
+        background-color: #f9f9fa
+    }
+
+    .flex {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto
+    }
+
+    @media (max-width:991.98px) {
+        .padding {
+            padding: 1.5rem
+        }
+    }
+
+    @media (max-width:767.98px) {
+        .padding {
+            padding: 1rem
+        }
+    }
+
+    .padding {
+        padding: 3rem
+    }
+
+
+    .owl-carousel .item {
+        margin: 3px;
+    }
+
+    .owl-carousel .item img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .owl-carousel .item {
+        margin: 3px;
+    }
+
+    .owl-carousel {
+        margin-bottom: 15px;
     }
 </style>
