@@ -54,7 +54,6 @@
 
             loop: true,
             autoPlay: 1000,
-            autoplayTimeout: 1000,
             items: 3,
             itemsDesktop: [1199, 3],
             itemsDesktopSmall: [979, 3],
@@ -62,7 +61,11 @@
             nav: true,
             responsiveClass: true,
             autoplayHoverPause: true,
-            fluidSpeed: true,
+            rewindNav : true,
+    rewindSpeed: 0,
+
+
+
             responsive: {
                 0: {
                     items: 1,
