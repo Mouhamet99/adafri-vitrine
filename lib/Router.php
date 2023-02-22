@@ -19,7 +19,7 @@ class Router  {
       
         // if(empty($array_uri[0]) )Response::redirectUrl("");
         $action = empty($array_uri[0]) ? "accueil" : $array_uri[0];
-        if(strpos($action,"."))Response::redirectUrl("");
+        if(strpos($action,".")) Response::redirectUrl("");
         $controller=ucfirst("PageController");
         
         if(file_exists(ROOT.DIRECTORY_SEPARATOR."controllers".DIRECTORY_SEPARATOR.$controller.".php")){

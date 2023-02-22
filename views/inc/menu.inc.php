@@ -1,7 +1,7 @@
 <nav class="position-absolute w-100">
     <div class="container d-flex align-items-center justify-content-between py-3">
             <div class="logo d-flex align-items-center justify-content-start">
-                    <a href="<?php path('accueil') ?>">
+                    <a href="/">
                         <img src="<?php echo(WEB_ROOT.'assets/images/logo_adafri.svg')?>" alt="logo adafri">
                     </a>
             </div>
