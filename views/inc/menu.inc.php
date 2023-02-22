@@ -1,14 +1,14 @@
 <nav class="position-absolute w-100">
     <div class="container d-flex align-items-center justify-content-between py-3">
             <div class="logo d-flex align-items-center justify-content-start">
-                    <a href="<?php path('page/accueil') ?>">
+                    <a href="<?php path('accueil') ?>">
                         <img src="<?php echo(WEB_ROOT.'assets/images/logo_adafri.svg')?>" alt="logo adafri">
                     </a>
             </div>
             <div class="list d-none d-lg-block">
                 <ul class="d-flex align-items-center justify-content-between ">
-                     <li><a href="<?php path('page/accueil#solutions') ?>">Nos Solutions</a></li>
-                     <li><a href="<?php path('page/simulator')?>">Le Simulateur</a></li>
+                     <li><a href="<?php path('accueil#solutions') ?>">Nos Solutions</a></li>
+                     <li><a href="<?php path('simulator')?>">Le Simulateur</a></li>
                      <li><a href="https://blog.adafri.com/" target="_blank">Le Blog</a></li>
                 </ul>
             </div>
@@ -27,19 +27,19 @@
                 <button type="button" data-bs-dismiss="modal"><span class="material-symbols-outlined">close</span></button>
             </div>
             <ul>
-                <li><a href="<?php path('page/tv')?>" class="justify-content-center justify-content-lg-start">Campagnes TV</a></li>
-                <li><a href="<?php path('page/radio')?>" class="justify-content-center justify-content-lg-start">Campagnes Radio</a></li>
-                <li><a href="<?php path('page/chatbot')?>" class="justify-content-center justify-content-lg-start">Chatbot WhatsApp</a></li>
-                <li><a href="<?php path('page/website-ads')?>" class="justify-content-center justify-content-lg-start">Publicités sur les sites web</a></li>
-                <li><a href="<?php path('page/search-engine-ads')?>" class="justify-content-center justify-content-lg-start">Publicités sur les moteurs de recherche</a></li>
-                <li><a href="<?php path('page/led-pannels-ads')?>" class="justify-content-center justify-content-lg-start">Panneaux LED</a></li>
-                <li><a href="<?php path('page/push-vocal')?>" class="justify-content-center justify-content-lg-start">Push Vocal</a></li>
-                <li><a href="<?php path('page/sms')?>" class="justify-content-center justify-content-lg-start">SMS Marketing</a></li>
-                <li><a href="<?php path('page/ussd')?>" class="justify-content-center justify-content-lg-start">Sondages USSD</a></li>
+                <li><a href="<?php path('tv')?>" class="justify-content-center justify-content-lg-start">Campagnes TV</a></li>
+                <li><a href="<?php path('radio')?>" class="justify-content-center justify-content-lg-start">Campagnes Radio</a></li>
+                <li><a href="<?php path('chatbot')?>" class="justify-content-center justify-content-lg-start">Chatbot WhatsApp</a></li>
+                <li><a href="<?php path('website-ads')?>" class="justify-content-center justify-content-lg-start">Publicités sur les sites web</a></li>
+                <li><a href="<?php path('search-engine-ads')?>" class="justify-content-center justify-content-lg-start">Publicités sur les moteurs de recherche</a></li>
+                <li><a href="<?php path('led-pannels-ads')?>" class="justify-content-center justify-content-lg-start">Panneaux LED</a></li>
+                <li><a href="<?php path('push-vocal')?>" class="justify-content-center justify-content-lg-start">Push Vocal</a></li>
+                <li><a href="<?php path('sms')?>" class="justify-content-center justify-content-lg-start">SMS Marketing</a></li>
+                <li><a href="<?php path('ussd')?>" class="justify-content-center justify-content-lg-start">Sondages USSD</a></li>
             </ul>
             <h4 class="mt-4">AUTRES PAGES</h4>
             <ul>
-                <li><a href="<?php path('page/simulator')?>" class="justify-content-center justify-content-lg-start">Le Simulateur</a></li>
+                <li><a href="<?php path('simulator')?>" class="justify-content-center justify-content-lg-start">Le Simulateur</a></li>
                 <li><a href="https://blog.adafri.com/" class="justify-content-center justify-content-lg-start">Le Blog</a></li>
             </ul>
         </div>

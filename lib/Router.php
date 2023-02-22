@@ -17,10 +17,10 @@ class Router  {
         $array_uri = $this->request->getUri();
         $array_uri = str_replace('-', '_', $array_uri);
       
-        if(empty($array_uri[0]) || !isset($array_uri[1]))Response::redirectUrl("page/accueil");
-        $action=$array_uri[1];
-        if(strpos($action,"."))Response::redirectUrl("page/accueil");
-        $controller=ucfirst($array_uri[0])."Controller";
+        if(empty($array_uri[0]) )Response::redirectUrl("accueil");
+        $action=$array_uri[0];
+        if(strpos($action,"."))Response::redirectUrl("accueil");
+        $controller=ucfirst("PageController");
         if(file_exists(ROOT.DIRECTORY_SEPARATOR."controllers".DIRECTORY_SEPARATOR.$controller.".php")){
             $controllerClass= "ism\\controllers\\".$controller;
             $objectController = new $controllerClass();
